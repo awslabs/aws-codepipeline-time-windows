@@ -7,6 +7,7 @@ for building time window and black days based approvals in AWS CodePipeline.
 
 1. Create an AWS CodeCommit repository with any name of your preference using AWS console or CLI. This document assumes
 that the name you chose is `aws-codepipeline-time-windows`. 
+    * See this [guide](http://docs.aws.amazon.com/codecommit/latest/userguide/how-to-migrate-repository-existing.html) for the details on closing an existing GitHub repositories to AWS CodeCommit.
 2. Clone the content of this repository to AWS CodeCommit repository created in the above step.
 3. Download AWS CodeDeploy sample application for Linux using this [link](https://s3.amazonaws.com/aws-codedeploy-us-east-1/samples/latest/SampleApp_Linux.zip).
 4. Upload this application in a version enabled Amazon S3 bucket you own. Note down both the bucket name and object key. 
