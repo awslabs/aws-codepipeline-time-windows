@@ -1,4 +1,4 @@
-# AWS CodePipeline Time Windows Tests
+# AWS CodePipeline Time Windows
 
 The resources in this repository will help you setup required AWS resources
 for building time window and black days based approvals in AWS CodePipeline.
